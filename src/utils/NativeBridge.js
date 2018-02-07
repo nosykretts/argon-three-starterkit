@@ -20,6 +20,7 @@ class NativeBridge {
 
   onMessage(data) {
     const decodedData = JSON.parse(data);
+    alert(decodedData)
     if (decodedData.method == "fov") {
       document.getElementById("fov").innerHTML = decodedData.value;
       this.app.reality.setDesiredFov(THREE.Math.degToRad(decodedData.value));

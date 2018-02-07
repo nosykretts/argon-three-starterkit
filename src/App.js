@@ -16,7 +16,7 @@ export default class App {
      * @constructor
      */
     constructor() {
-        this.initialLocation = LocationValues.KTH;
+        this.initialLocation = LocationValues.KostFajar;
 
         this.width = window.innerWidth;
         this.height = window.innerHeight;

@@ -14,6 +14,7 @@ module.exports = {
     },
     devServer: {
         inline: true,
+        disableHostCheck: true,
         contentBase: './static',
         outputPath: path.join(__dirname, 'build')
     },

@@ -16,5 +16,11 @@ export const LocationValues = {
     lat: 59.43900825619764,
     long: 18.073258101940155,
     alt: 35.271,
+  },
+  KostFajar: {
+    name: 'kostfajar',
+    lat: 106.778898,
+    long: -6.259974,
+    alt: 35.271,
   }
 }

@@ -4,7 +4,7 @@
   "description": "Starterkit using Argon.js, Three.js, ES6 & Webpack",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --hot --inline --config webpack.config.js",
+    "start": "webpack-dev-server --progress --colors --host 0.0.0.0 --hot --inline --config webpack.config.js",
     "build": "webpack --progress --colors --config webpack.prod.config.js",
     "deploy": "gh-pages -d build"
   },
